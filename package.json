@@ -1,0 +1,24 @@
+{
+    "name": "com.stevejstone.construction",
+    "version": "0.0.1",
+    "displayName": "SteveJstone - Construction",
+    "description": "This is a package to help with developing Unity games",
+    "unity": "2021.3",
+    "unityRelease": "0b5",
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "dependencies": {
+      "com.stevejstone.core": "0.0.1",
+      "com.stevejstone.ui-framework": "0.0.2"
+    },
+    "keywords": [
+        "ui",
+        "bootstrap"
+      ],
+      "author": {
+        "name": "Steve Johnstone",
+        "email": "steve.jstone@gmail.com",
+        "url": "https://www.example.com"
+      }
+  }

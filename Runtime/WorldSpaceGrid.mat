@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WorldSpaceGrid
+  m_Shader: {fileID: -6465566751694194690, guid: 7f0a68f8ddffdb449b16f68a261c2665, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_92586296ab3e40f59b67f3b0740539af_Out_0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Checker_Contrast: 1.5
+    - Checker_Size: 100
+    - Metallic: 0
+    - Primary_Grid_Line_Width: 0.02
+    - Primary_Grid_Size: 50
+    - Projection_Transition_Contrast: 0
+    - Secondary_Grid_Fade_Length: 8
+    - Secondary_Grid_Fade_Offset: 0
+    - Secondary_Grid_Intensity: 1
+    - Secondary_Grid_Line_Width: 0.005
+    - Secondary_Grid_Size: 25
+    - Smoothness: 0.5
+    - Use_Secondary_Grid: 1
+    - _BlockGridSize: 10
+    - _BlockLineEdgeBlur: 0.01
+    - _BlockLineOpacity: 1
+    - _BlockLineWidth: 2
+    - _Darken: 5
+    - _Edge: 0.1
+    - _EdgeFeather: 0.004
+    - _Exposure: 2.21
+    - _FadeDistance: 31.25
+    - _GridSize: 1
+    - _LeadSharp: 10
+    - _LineEdgeBlur: 0.03
+    - _LineOpacity: 1
+    - _LineWidth: 1
+    - _Opacity: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ScanDistance: 100
+    - _ScanWidth: 100
+    - _Tiling: 0.1
+    m_Colors:
+    - Floor_Color: {r: 0, g: 0, b: 0, a: 0}
+    - Line_Tint: {r: 1, g: 1, b: 1, a: 1}
+    - Walls_Color: {r: 0, g: 1, b: 0.029981852, a: 0}
+    - _BlockLineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BlockOffset: {r: -0.5, g: 0, b: 0, a: 0}
+    - _Center: {r: 0, g: 0, b: 0, a: 0}
+    - _CornerA: {r: -1165.7153, g: -1000, b: 414.21344, a: 0}
+    - _CornerB: {r: -1165.7153, g: -414.2136, b: 999.99994, a: 0}
+    - _CornerC: {r: 1165.7153, g: -414.2136, b: 999.99994, a: 0}
+    - _CornerD: {r: 1165.7153, g: -1000, b: 414.21344, a: 0}
+    - _GridColor: {r: 0, g: 0, b: 0, a: 0.62352943}
+    - _HBarColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _LeadColor: {r: 1, g: 1, b: 1, a: 0}
+    - _LineColor: {r: 0.28301886, g: 0.28301886, b: 0.28301886, a: 0}
+    - _MidColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _TrailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WorldSpaceScannerPos: {r: -10.271179, g: 0, b: 6.185486, a: 0}
+    - _vectorA: {r: -1638.845, g: -1000, b: 414.21344, a: 0}
+    - _vectorB: {r: -1638.845, g: -414.2136, b: 999.99994, a: 0}
+    - _vectorC: {r: 1638.845, g: -414.2136, b: 999.99994, a: 0}
+    - _vectorD: {r: 1638.845, g: -1000, b: 414.21344, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3418716858523823107
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

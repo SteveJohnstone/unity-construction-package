@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Features/UI.Elements/TabbedList.uss?fileID=7433441132597879392&amp;guid=228ab15145b71c741914eea4ba8ff219&amp;type=3#TabbedList" />
+    <Style src="project://database/Assets/Features/UI.Elements/Resources/BuildMenu.uss?fileID=7433441132597879392&amp;guid=bf8cfaff197a9a643ae51a4d50dda003&amp;type=3#BuildMenu" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: column-reverse; height: 100%; width: 100%;">
+        <SteveJstone.TabbedList section-count="3" section-template="BuildMenuList" name="BuildMenu" style="background-color: rgba(52, 58, 64, 0.9); padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+        <ui:Button text="Build" display-tooltip-when-elided="true" name="BuildButton" style="align-items: auto; justify-content: flex-start; position: relative; right: auto; left: 0; bottom: 0; width: 100px; height: 50px; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

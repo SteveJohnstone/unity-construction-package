@@ -1,0 +1,25 @@
+#BuildButton {
+    bottom: 0;
+    left: 0;
+}
+
+.item-box {
+    width: 50px;
+    height: 50px;
+
+    background-color: #aaa;
+
+    border-width: 1px;
+    border-color: #ccc;
+
+    margin:3px;
+    padding: 5px;
+
+}
+
+.item-box .item-text {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
