@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WorldSpaceGrid
-  m_Shader: {fileID: -6465566751694194690, guid: 7f0a68f8ddffdb449b16f68a261c2665, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 7f0a68f8ddffdb449b16f68a261c2665,
+    type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4

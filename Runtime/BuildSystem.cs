@@ -1,6 +1,4 @@
 using Sirenix.OdinInspector;
-using StrategyGame;
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
